@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidad - Impulso+</title>
+  <style>
+    :root {
+      --primary-color: #4a6bff;
+      --secondary-color: #f8f9fa;
+      --text-color: #333;
+      --border-color: #e1e1e1;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      line-height: 1.6;
+      color: var(--text-color);
+      max-width: 900px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: #fff;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 30px;
+      padding-bottom: 20px;
+      border-bottom: 2px solid var(--border-color);
+    }
+
+    h1 {
+      color: var(--primary-color);
+      margin-bottom: 10px;
+    }
+
+    .last-update {
+      font-style: italic;
+      color: #666;
+    }
+
+    h2 {
+      color: var(--primary-color);
+      margin-top: 30px;
+      padding-bottom: 5px;
+      border-bottom: 1px solid var(--border-color);
+    }
+
+    h3 {
+      margin-top: 20px;
+      color: #555;
+    }
+
+    ul {
+      padding-left: 20px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    a {
+      color: var(--primary-color);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .contact-info {
+      background-color: var(--secondary-color);
+      padding: 15px;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+
+    footer {
+      margin-top: 40px;
+      text-align: center;
+      font-size: 0.9em;
+      color: #666;
+      padding-top: 20px;
+      border-top: 1px solid var(--border-color);
+    }
+
+    @media (max-width: 768px) {
+      body {
+        padding: 15px;
+      }
+
+      h1 {
+        font-size: 1.5em;
+      }
+
+      h2 {
+        font-size: 1.3em;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Política de Privacidad de Impulso+</h1>
+    <p class="last-update">Última actualización: <span id="current-date"></span></p>
+  </header>
+
+  <section>
+    <h2>1. Responsable de los Datos</h2>
+    <p>La aplicación <strong>"Impulso+"</strong>, desarrollada por <a href="https://aetheria.lat/"
+        target="_blank">Aetheria</a>
+      , es responsable del tratamiento de los datos personales de los usuarios conforme a las leyes de protección de
+      datos aplicables en Latinoamérica.</p>
+  </section>
+
+  <section>
+    <h2>2. Información que Recopilamos</h2>
+    <p>Cuando usas <em>Impulso+</em>, recopilamos los siguientes datos:</p>
+    <ul>
+      <li><strong>Datos proporcionados por usted</strong>:
+        <ul>
+          <li>Textos ingresados en formularios para segmentación de imágenes.</li>
+          <li><em>Prompts</em> (instrucciones) para la generación de imágenes mediante IA.</li>
+          <li>Mensajes enviados al <strong>asesor de IA</strong> (chat).</li>
+        </ul>
+      </li>
+      <li><strong>Datos técnicos</strong>:
+        <ul>
+          <li>Dirección IP, tipo de dispositivo y sistema operativo (para seguridad y análisis).</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>3. Finalidad del Tratamiento de Datos</h2>
+    <p>Usamos sus datos para:</p>
+    <ul>
+      <li>Procesar sus solicitudes mediante <strong>inteligencia artificial</strong> (APIs de OpenAI).</li>
+      <li>Mejorar la precisión de los modelos de segmentación y generación de imágenes.</li>
+      <li>Brindar soporte técnico y responder consultas a través del chat.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>4. Base Legal y Consentimiento</h2>
+    <p>El tratamiento de sus datos se basa en:</p>
+    <ul>
+      <li><strong>Su consentimiento explícito</strong> (al aceptar esta política y usar la App).</li>
+      <li><strong>Ejecución de un contrato</strong> (para brindarle los servicios solicitados).</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>5. Compartición con Terceros</h2>
+    <ul>
+      <li><strong>OpenAI</strong>: Enviamos sus <em>prompts</em> e imágenes a sus APIs para generación de contenido.
+        Consulte su política <a href="https://openai.com/policies/privacy-policy" target="_blank">aquí</a>.</li>
+      <li><strong>Firebase</strong>: Usamos esta plataforma para autenticación (JWT) y almacenamiento seguro.</li>
+    </ul>
+    <p><strong>No vendemos ni compartimos sus datos con fines publicitarios</strong>.</p>
+  </section>
+
+  <section>
+    <h2>6. Almacenamiento y Seguridad</h2>
+    <ul>
+      <li><strong>Dónde se guardan</strong>: En bases de datos de Firebase (Google Cloud) con servidores en [indicar
+        región, ej.: <em>EE.UU. o Brasil</em>].</li>
+      <li><strong>Tiempo de retención</strong>:
+        <ul>
+          <li>Sus datos se conservan <strong>hasta que elimine su cuenta</strong> o solicite su borrado.</li>
+        </ul>
+      </li>
+      <li><strong>Medidas de seguridad</strong>:
+        <ul>
+          <li>Cifrado <strong>HTTPS</strong> en todas las comunicaciones.</li>
+          <li>Autenticación mediante <strong>tokens JWT</strong>.</li>
+        </ul>
+      </li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>7. Derechos del Usuario</h2>
+    <p>Usted puede:</p>
+    <ul>
+      <li><strong>Descargar</strong> las imágenes generadas.</li>
+      <li><strong>Rectificar</strong> datos incorrectos.</li>
+      <li><strong>Eliminar su cuenta y todos sus datos</strong> (desde los ajustes de la App).</li>
+      <li><strong>Revocar su consentimiento</strong> (contactándonos por correo).</li>
+    </ul>
+    <div class="contact-info">
+      <p>Para ejercer estos derechos, escriba a: <a href="mailto:tu_email@dominio.com">tu_email@dominio.com</a>.</p>
+    </div>
+  </section>
+
+  <section>
+    <h2>8. Legislación Aplicable</h2>
+    <p>Cumplimos con:</p>
+    <ul>
+      <li><strong>Ley General de Protección de Datos (LGPD)</strong> – Brasil.</li>
+      <li><strong>Ley de Protección de Datos Personales</strong> – Argentina, México, Colombia, Chile, Perú, y demás
+        países latinoamericanos con regulaciones similares.</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>9. Menores de Edad</h2>
+    <p><em>Impulso+</em> no está dirigida a menores de <strong>13 años</strong>. Si descubre que un menor ha
+      proporcionado datos sin consentimiento parental, contáctenos para eliminarlos.</p>
+  </section>
+
+  <section>
+    <h2>10. Cambios en esta Política</h2>
+    <p>Notificaremos actualizaciones importantes mediante:</p>
+    <ul>
+      <li>Una notificación dentro de la App.</li>
+      <li>Correo electrónico (si nos ha proporcionado su dirección).</li>
+    </ul>
+  </section>
+
+  <section>
+    <h2>11. Contacto</h2>
+    <p>Para preguntas o reclamos sobre privacidad:</p>
+    <ul>
+      <li>Email: <a href="mailto:tu_email@dominio.com">tu_email@dominio.com</a>.</li>
+    </ul>
+  </section>
+
+  <footer>
+    <p>© <span id="current-year"></span> Impulso+. Todos los derechos reservados.</p>
+  </footer>
+
+  <script>
+    // Actualizar fecha automáticamente
+    document.getElementById('current-date').textContent = new Date().toLocaleDateString('es-ES', {
+      year: 'numeric',
+      month: 'long',
+      day: 'numeric'
+    });
+
+    document.getElementById('current-year').textContent = new Date().getFullYear();
+  </script>
+</body>
+
+</html>
